@@ -1,0 +1,9 @@
+<input type=text id="myText01" value="words and numbers"><br>
+
+<input type=button value="clickk" onclick="{
+
+let myTemp = document.getElementById('myText01').value
+document.getElementById('myDiv01').innerHTML = myTemp
+}">
+
+<div id="myDiv01"><font color="red">i will copy the text.</font></div>
