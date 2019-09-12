@@ -1,0 +1,23 @@
+<input type=text id="myName01" value="<font color="grey">what is your name</font>"><br>
+<input type=text id="myAge01" value="<font color="grey">how many years old are you</font>"><br>
+
+
+<input type=button value="click" onclick="{
+let myName = document.getElementById('myName01').value
+let myAge = Math.abs(document.getElementById('myAge01').value)
+let myTemp = ' are a teenager'
+if (myAge <=12){ myTemp = ' are a teenlet.'} 
+if (myAge <=9){ myTemp = ' are a child.'}
+if (myAge <=4){ myTemp = ' are a toddler.'}
+if (myAge <=1){ myTemp = ' are a baby.'}
+if (myAge >=110){ myTemp = ' are alive?'}
+if (myAge >=90){ myTemp = ' have been around for a while, havent you?'}
+if (myAge >=65){ myTemp = ' are probably able to retire.'}
+if (myAge >=35){ myTemp = ' are middle age.'}
+if (myAge >=20){ myTemp = ' are an adult.'}
+if (myAge >=18){ myTemp = ' are legally an adult.'}
+
+document.getElementById('myDiv01').innerHTML = 'You' myName myTemp
+}">
+
+<div id="myDiv01"><font color="red">input name and age</font></div>

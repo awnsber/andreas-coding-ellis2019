@@ -1,8 +1,0 @@
-<input type=text id="myName01" value="<font color="grey">i dont know it's propably jeremy or something like that.</font>"><br>
-
-<input type=button value="clickk" onclick="{
-let myTemp = document.getElementById('myText01').value
-document.getElementById('myDiv01').innerHTML = myTemp
-}">
-
-<div id="myDiv01"><font color="red">i will copy the text.</font></div>
