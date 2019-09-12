@@ -1,23 +1,25 @@
-<input type=text id="myName01" value="<font color="grey">what is your name</font>"><br>
-<input type=text id="myAge01" value="<font color="grey">how many years old are you</font>"><br>
+<input type=text id="myName01" value="what is your name"><br>
+<input type=text id="myAge01" value="how many years old are you"><br>
 
 
 <input type=button value="click" onclick="{
 let myName = document.getElementById('myName01').value
-let myAge = Math.abs(document.getElementById('myAge01').value)
-let myTemp = ' are a teenager'
-if (myAge <=12){ myTemp = ' are a teenlet.'} 
-if (myAge <=9){ myTemp = ' are a child.'}
-if (myAge <=4){ myTemp = ' are a toddler.'}
-if (myAge <=1){ myTemp = ' are a baby.'}
-if (myAge >=110){ myTemp = ' are alive?'}
-if (myAge >=90){ myTemp = ' have been around for a while, havent you?'}
-if (myAge >=65){ myTemp = ' are probably able to retire.'}
-if (myAge >=35){ myTemp = ' are middle age.'}
-if (myAge >=20){ myTemp = ' are an adult.'}
-if (myAge >=18){ myTemp = ' are legally an adult.'}
-
-document.getElementById('myDiv01').innerHTML = 'You' myName myTemp
+let myAge = document.getElementById('myAge01').value
+let myTemp = ' is ageless.'
+if (myAge <=12){ myTemp = ' is a teenlet.'} 
+if (myAge <=9){ myTemp = ' is a child.'}
+if (myAge <=4){ myTemp = ' is a toddler.'}
+if (myAge <=1){ myTemp = ' is a baby.'}
+if (myAge >=140){ myTemp = ' is dead, face the facts and get out of your fantasy world.'}
+if (myAge >=110 && myAge < 140){ myTemp = ' is alive?'}
+if (myAge >=90 && myAge < 110){ myTemp = ' has been around for a while, havent they?'}
+if (myAge >=65 && myAge < 90){ myTemp = ' is probably able to retire.'}
+if (myAge >=35 && myAge < 65){ myTemp = ' is middle age.'}
+if (myAge >=20 && myAge < 35){ myTemp = ' is an adult.'}
+if (myAge >=18 && myAge < 20){ myTemp = ' is legally an adult.'}
+if (myAge >=13 && myAge < 18){ myTemp = ' is legally an adult.'}
+if (myAge <=-1){ myTemp = ' is lying.'}
+document.getElementById('myDiv01').innerHTML = myName+myTemp
 }">
 
-<div id="myDiv01"><font color="red">input name and age</font></div>
+<div id="myDiv01"><font color="blue">input name and age</font></div>
