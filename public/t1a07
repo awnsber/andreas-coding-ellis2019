@@ -1,0 +1,46 @@
+<style>
+body {
+	color: #3bd4ba;
+background-image: url("https://ih1.redbubble.net/image.754208203.5375/flat,750x,075,f-pad,750x1000,f8f8f8.jpg");
+background-size: 1600px;
+border-color: green;
+border-style: double double dashed double ;
+     }
+h1   {
+	color: #95ff75;
+	font-family: comic sans ms;
+     }
+h2   {
+	color: black;
+	font-family: comic sans ms;
+     }
+p.ex {
+	color: #d1a1ca;
+     }
+</style>
+
+
+<h1 align=center><u>CSS By Andreas</u></h1>
+
+<div id="myDiv01" style="position:absolute; left:200 top;10 " >Andreas</div><br><br><br>
+
+
+<a
+href="http://firstbabylaptop.com/">Best computers 2019</a><br>
+<a
+href="http://www.w3schools.com/cssref">W3 Schools</a><br>
+<a
+href="https://youtu.be/dQw4w9WgXcQ">FREE GIFT CARD GIVEAWAY</a><br><br>
+
+<input type=button value=TheButton style="background-color:#f58ee5; color:#7d116c; "
+onmouseover="{
+alert('no dont click me')
+}">
+
+<br><br><br><br><br>
+
+<p> Wow! This is a very good paragraph. It has 2 sentences and an exclamation. </p>
+<p class="ex"> 	This paragraph has a class. <i> Very fancy. </i>
+<br><br><br>
+
+<h2 align=center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>T̬͙͓̼̲̈ͮ͢H̻̤̬͍̭͉̋͌̅͆͛̅̉͟ͅͅE̠̻͙̰̊͛͌̈ͩͬ̑ͫ̕R̨̤̳̝͉̣͒͒̊̃͊̎̂͒͟ͅE̶̱̞͓͇̤̻ͣ͊Ṡ̸͓̫̱͈̦ͪ̅ ̧̦̮̎̕̕N͕͚̱̫ͭ͗̂͜͠Ơ̴̶͓̝͑̈ͅ ̛̟̖̣͈̘̖͙̾͐̽̂͌̅͑̆͝E̷̢̨̥̪̳͛̿͒S͖͙̝͑̊ͬ͡C̻̪̜̫͚͙͈͎̠ͬ̌ͦ͋̇A̢͗̒͛ͦ͏͚̘̩̘̰P͈̫̜͍̤͔ͥ̾ͪE̦̰̼͂͛͒͐͆ͩ ͌ͯ̇́ͨ͊͏̛̻̩̫̱̩̺̪J̛͇̝͕̗̪̥͉͙̄͊̀͆̇͠Ḙ̛̦͎͈͍̪̼̗ͫͥ̂ͤ̆̀̚ͅR̴̨͙̝͗͂̿̾̍E̟̪̣̰ͫͦ̋̓ͤ̋ͦ̓̍͡͠M̨ͮ͛͌҉͖̥Y̱̰͕̞̱̞͚̏</h2>
