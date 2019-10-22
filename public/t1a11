@@ -1,0 +1,43 @@
+<h1 align=center>t1a11 loop modulus by Andreas</h1>
+
+input any number of loops <input type=text id="myText01" value="25"><br><br>
+
+<input type=button value="modulus decisions" onclick="{
+
+	let myLoopMax = document.getElementById('myText01').value
+	let myTemp =''
+	let myFontColour 
+
+	for(let myLoop=0; myLoop <= myLoopMax; myLoop++){
+		myFontColour = 'black'
+		let myMessage = ''
+	if (myLoop % 2 == 0) {
+		myFontColour = 'yellow'
+		myMessage += ' divisible by 2 '
+	}
+	if (myLoop % 3 == 0) {
+		myFontColour = 'cyan'
+		myMessage += ' divisible by 3 '
+	}
+	if (myLoop % 5 == 0) {
+		myFontColour = '#00f74e'
+		myMessage += ' divisible by 5 '
+	}
+	if (myLoop % 10 == 0) {
+		myFontColour = 'blue'
+		myMessage += ' divisible by 10 '
+	}
+
+	if (myLoop % 25 == 0) {
+		myFontColour = 'red'
+		myMessage += ' divisible by 25 '
+	}
+
+	
+	myTemp += '<font color='+myFontColour+'> Loop # ' + myLoop + '</font>'+ myMessage +'<br>'
+	}
+
+	document.getElementById('myDiv01').innerHTML = myTemp
+}"><br><br>
+
+<div id="myDiv01">...</div>	
