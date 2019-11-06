@@ -1,0 +1,24 @@
+<script>
+let myinterval
+ function myFunk(){
+	if (parseInt(document.getElementById('myDiv01').style.left) > 400)
+	{
+		document.getElementById('myDiv01').style.left = '397px'
+		}
+	}
+
+</script>
+
+<body onkeydown="{
+
+	let myKey= event.Key
+//	let myKey = string.toLowerCase(event.Key)	
+	
+	if (myKey == 'd') {
+		clearInterval(myInterval)
+		myInterval = setInterval(function(){
+
+			document.getElementById('myDiv01').style.left = 
+				parseInt(document.getElementById('myDiv01').style.left)
+3
+		
