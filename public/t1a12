@@ -1,0 +1,26 @@
+<script>
+	let myInterval
+</script>
+
+<h1 align=center>.</h1>
+
+
+<div id="myDiv01" style="position:absolute; left:200; top:10; " >Jim;</div>
+<input type=button value="go right auto" onMouseover="{
+
+	clearInterval(myInterval)
+	myInterval = setInterval(function(){
+		document.getElementById('myDiv01').style.left =
+	parseInt(document.getElementById('myDiv01').style.left) + 10
+		} ,200)
+}">
+
+
+<input type=button value="stahp" onMouseover="{
+
+	clearInterval(myInterval)
+	myInterval = setInterval(function(){
+		document.getElementById('myDiv01').style.right =
+	parseInt(document.getElementById('myDiv01').style.right) - 10
+		} ,200)
+}">
