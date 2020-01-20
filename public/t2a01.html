@@ -1,0 +1,130 @@
+<style>
+
+
+
+</style>
+
+
+<h1>t2a01-Calculator</h1>
+
+<input type=text id="myScreen01" value=""><br>
+
+
+<br>
+
+<input type=button value="7" onclick="{
+	document.getElementById('myScreen01').value = document.getElementById('myScreen01').value + '7'
+}">
+
+<input type=button value="8" onclick="{
+	document.getElementById('myScreen01').value = document.getElementById('myScreen01').value + '8'
+}">
+
+<input type=button value="9" onclick="{
+	document.getElementById('myScreen01').value = document.getElementById('myScreen01').value + '9'
+}">
+
+
+<br>
+
+<input type=button value="4" onclick="{
+	document.getElementById('myScreen01').value = document.getElementById('myScreen01').value + '4'
+}">
+
+<input type=button value="5" onclick="{
+	document.getElementById('myScreen01').value = document.getElementById('myScreen01').value + '5'
+}">
+
+<input type=button value="6" onclick="{
+	document.getElementById('myScreen01').value = document.getElementById('myScreen01').value + '6'
+}">
+
+
+<br>
+
+<input type=button value="1" onclick="{
+	document.getElementById('myScreen01').value = document.getElementById('myScreen01').value + '1'
+}">
+
+<input type=button value="2" onclick="{
+	document.getElementById('myScreen01').value = document.getElementById('myScreen01').value + '2'
+}">
+
+<input type=button value="3" onclick="{
+	document.getElementById('myScreen01').value = document.getElementById('myScreen01').value + '3'
+}">
+
+<br>
+<br>
+<br>
+
+<select id="myJimmy01" size=1>
+<option value="*">x
+<option value="-">-
+<option value="+">+
+<option value="/">÷
+</select>
+<br>
+<br>
+<br>
+
+<input type=text id="myScreen02" value=""><br>
+
+
+<input type=button value="7" onclick="{
+	document.getElementById('myScreen02').value = document.getElementById('myScreen02').value + '7'
+}">
+
+<input type=button value="8" onclick="{
+	document.getElementById('myScreen02').value = document.getElementById('myScreen02').value + '8'
+}">
+
+<input type=button value="9" onclick="{
+	document.getElementById('myScreen02').value = document.getElementById('myScreen02').value + '9'
+}">
+
+
+<br>
+
+<input type=button value="4" onclick="{
+	document.getElementById('myScreen02').value = document.getElementById('myScreen02').value + '4'
+}">
+
+<input type=button value="5" onclick="{
+	document.getElementById('myScreen02').value = document.getElementById('myScreen02').value + '5'
+}">
+
+<input type=button value="6" onclick="{
+	document.getElementById('myScreen02').value = document.getElementById('myScreen02').value + '6'
+}">
+
+
+<br>
+
+<input type=button value="1" onclick="{
+	document.getElementById('myScreen02').value = document.getElementById('myScreen02').value + '1'
+}">
+
+<input type=button value="2" onclick="{
+	document.getElementById('myScreen02').value = document.getElementById('myScreen02').value + '2'
+}">
+
+<input type=button value="3" onclick="{
+	document.getElementById('myScreen02').value = document.getElementById('myScreen02').value + '3'
+}">
+
+<br>
+<br>
+<br>
+<br>
+
+<input type=button value="=" onclick="{
+
+	let myTemp01 = document.getElementById('myScreen01').value + ' + ' + document.getElementById('myScreen02').value + ' = ' + parseFloat(document.getElementById('myScreen01').value) + parseFloat(document.getElementById('myScreen02').value)
+	document.getElementById('myDiv01').innerHTML = myTemp01
+
+
+
+
+
+
